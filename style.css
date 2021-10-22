@@ -1,0 +1,52 @@
+/* Partie reservee au CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
+
+  body {
+      font-family: 'Lora';
+      background-color:#DED9D6;
+      font-size: 18px;
+      color:#1E0D05;
+  }
+
+ img {
+    width: 100px;
+}
+
+h1 {
+  color:#F76607; 
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+p {
+  color:#1E0D05;
+  font-size: 18px;
+}
+.container {
+    width: 700px;
+    margin: 60px auto;
+}
+
+.bloc {
+  background-color:beige;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 10px 15px 30px rgba(0,0,0,0.5);
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.btn-grey {
+  color:rgb(241, 110, 15);
+  background-color: #D1CFCE ;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 20px;
+  border-radius:5px;
+
+}
+
+.circle {
+  border-radius: 50%;
+}
